@@ -14,7 +14,7 @@ const routing = (router) => {
     router.get('/disconnect', AuthController.getDisconnect);
 
     // Retrieve a user
-    // router.get('/users/me', UsersController.getMe);
+    router.get('/users/me', UsersController.getMe);
 }
 
 
